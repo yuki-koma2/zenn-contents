@@ -8,6 +8,7 @@ topics:
 published: true
 published_at: "2021-07-22 13:51"
 ---
+<!-- textlint-disable -->
 
 ### 前置きと学んだ経緯
 
