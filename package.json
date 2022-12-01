@@ -3,7 +3,11 @@
   "version": "0.0.1",
   "description": "Zennの記事をgithubで管理するためのリポジトリ",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "textlint articles/*.md books/**/*.md",
+    "lint:fix": "npm run lint -- fix",
+    "zenn:preview": "zenn preview",
+    "zenn:new": "zenn new:article",
+    "zenn:new:book": "zenn new:book"
   },
   "keywords": [],
   "author": "u-koma",
@@ -17,5 +21,14 @@
   "homepage": "https://github.com/yuki-koma2/zenn-contents#readme",
   "dependencies": {
     "zenn-cli": "^0.1.133"
+  },
+  "devDependencies": {
+    "md-to-pdf": "^5.2.0",
+    "textlint": "^12.2.3",
+    "@textlint/textlint-plugin-markdown": "^12.2.3",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.1.0",
+    "textlint-rule-ja-no-redundant-expression": "^4.0.1",
+    "textlint-rule-preset-ja-spacing": "^2.2.0",
+    "textlint-rule-preset-japanese": "^7.0.0"
   }
 }

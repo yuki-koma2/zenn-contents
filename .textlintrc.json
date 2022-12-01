@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "preset-japanese": true,
+    "ja-no-redundant-expression": true,
+    "preset-ja-spacing": true,
+    "ja-hiragana-keishikimeishi": true
+  },
+  "plugins": {
+    "@textlint/markdown": true
+  }
+}
