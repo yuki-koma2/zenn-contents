@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/yuki-koma2/zenn-contents#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.133"
+    "zenn-cli": "^0.1.134"
   },
   "devDependencies": {
     "@textlint/textlint-plugin-markdown": "^12.2.3",
