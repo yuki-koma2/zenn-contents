@@ -23,7 +23,7 @@
     "zenn-cli": "^0.1.134"
   },
   "devDependencies": {
-    "@textlint/textlint-plugin-markdown": "^12.2.3",
+    "@textlint/textlint-plugin-markdown": "^12.6.0",
     "md-to-pdf": "^5.2.0",
     "textlint": "^12.2.3",
     "textlint-filter-rule-comments": "^1.2.2",
